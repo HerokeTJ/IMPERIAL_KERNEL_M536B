@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export PATH=$(pwd)/Clang-toolchains/clang/host/linux-x86/clang-r416183d/bin:$PATH
-export CROSS_COMPILE=$(pwd)/Clang-toolchains/clang/host/linux-x86/clang-r416183d/bin/aarch64-linux-gnu-
-export CC=$(pwd)/Clang-toolchains/clang/host/linux-x86/clang-r416183d/bin/clang
+export PATH=$(pwd)/toolchain/clang/host/linux-x86/clang-r416183d/bin:$PATH
+export CROSS_COMPILE=$(pwd)/toolchain/clang/host/linux-x86/clang-r416183d/bin/aarch64-linux-gnu-
+export CC=$(pwd)/toolchain/clang/host/linux-x86/clang-r416183d/bin/clang
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export ARCH=arm64
 export ANDROID_MAJOR_VERSION=t
